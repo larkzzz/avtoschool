@@ -1,0 +1,440 @@
+{
+  "capturedAt": "2026-11-24T00:00:00Z",
+  "tables": {
+    "categories": [
+      {
+        "id": 1,
+        "version": 1,
+        "fields": {
+          "code": "B",
+          "title": "Легковые автомобили",
+          "hours": "190"
+        }
+      },
+      {
+        "id": 2,
+        "version": 1,
+        "fields": {
+          "code": "A",
+          "title": "Мотоциклы",
+          "hours": "130"
+        }
+      },
+      {
+        "id": 3,
+        "version": 1,
+        "fields": {
+          "code": "C",
+          "title": "Грузовые автомобили",
+          "hours": "244"
+        }
+      }
+    ],
+    "instructors": [
+      {
+        "id": 1,
+        "version": 1,
+        "fields": {
+          "name": "Алексей Морозов",
+          "phone": "+79990000101",
+          "certificate": "У-101"
+        }
+      },
+      {
+        "id": 2,
+        "version": 1,
+        "fields": {
+          "name": "Мария Кузнецова",
+          "phone": "+79990000102",
+          "certificate": "У-102"
+        }
+      },
+      {
+        "id": 3,
+        "version": 1,
+        "fields": {
+          "name": "Дмитрий Орлов",
+          "phone": "+79990000103",
+          "certificate": "У-103"
+        }
+      },
+      {
+        "id": 4,
+        "version": 1,
+        "fields": {
+          "name": "Ирина Лебедева",
+          "phone": "+79990000104",
+          "certificate": "У-104"
+        }
+      }
+    ],
+    "cars": [
+      {
+        "id": 1,
+        "version": 1,
+        "fields": {
+          "model": "Lada Vesta",
+          "plate": "А123АА77",
+          "transmission": "MANUAL",
+          "category_id": "1"
+        }
+      },
+      {
+        "id": 2,
+        "version": 1,
+        "fields": {
+          "model": "Kia Rio",
+          "plate": "В456ВВ77",
+          "transmission": "AUTO",
+          "category_id": "1"
+        }
+      },
+      {
+        "id": 3,
+        "version": 1,
+        "fields": {
+          "model": "Hyundai Solaris",
+          "plate": "Е789ЕЕ77",
+          "transmission": "AUTO",
+          "category_id": "1"
+        }
+      },
+      {
+        "id": 4,
+        "version": 1,
+        "fields": {
+          "model": "Yamaha YBR 125",
+          "plate": "1234АМ77",
+          "transmission": "MANUAL",
+          "category_id": "2"
+        }
+      },
+      {
+        "id": 5,
+        "version": 1,
+        "fields": {
+          "model": "ГАЗон Next",
+          "plate": "К321КК77",
+          "transmission": "MANUAL",
+          "category_id": "3"
+        }
+      }
+    ],
+    "study_groups": [
+      {
+        "id": 1,
+        "version": 1,
+        "fields": {
+          "title": "Б-26/01",
+          "category_id": "1",
+          "instructor_id": "1",
+          "start_date": "2026-11-09",
+          "end_date": "2027-02-05",
+          "capacity": "16"
+        }
+      },
+      {
+        "id": 2,
+        "version": 1,
+        "fields": {
+          "title": "Б-26/02",
+          "category_id": "1",
+          "instructor_id": "2",
+          "start_date": "2026-11-16",
+          "end_date": "2027-02-12",
+          "capacity": "14"
+        }
+      },
+      {
+        "id": 3,
+        "version": 1,
+        "fields": {
+          "title": "А-26/01",
+          "category_id": "2",
+          "instructor_id": "3",
+          "start_date": "2026-10-12",
+          "end_date": "2026-12-18",
+          "capacity": "10"
+        }
+      },
+      {
+        "id": 4,
+        "version": 1,
+        "fields": {
+          "title": "С-26/01",
+          "category_id": "3",
+          "instructor_id": "4",
+          "start_date": "2026-10-26",
+          "end_date": "2027-02-19",
+          "capacity": "12"
+        }
+      }
+    ],
+    "students": [
+      {
+        "id": 1,
+        "version": 1,
+        "fields": {
+          "name": "Анна Белова",
+          "phone": "+79990000201",
+          "group_id": "1",
+          "status": "STUDYING",
+          "enrolled_on": "2026-11-07"
+        }
+      },
+      {
+        "id": 2,
+        "version": 1,
+        "fields": {
+          "name": "Максим Соколов",
+          "phone": "+79990000202",
+          "group_id": "1",
+          "status": "STUDYING",
+          "enrolled_on": "2026-11-08"
+        }
+      },
+      {
+        "id": 3,
+        "version": 1,
+        "fields": {
+          "name": "София Волкова",
+          "phone": "+79990000203",
+          "group_id": "1",
+          "status": "STUDYING",
+          "enrolled_on": "2026-11-09"
+        }
+      },
+      {
+        "id": 4,
+        "version": 1,
+        "fields": {
+          "name": "Артём Павлов",
+          "phone": "+79990000204",
+          "group_id": "1",
+          "status": "PAUSED",
+          "enrolled_on": "2026-11-09"
+        }
+      },
+      {
+        "id": 5,
+        "version": 1,
+        "fields": {
+          "name": "Виктория Смирнова",
+          "phone": "+79990000205",
+          "group_id": "2",
+          "status": "STUDYING",
+          "enrolled_on": "2026-11-13"
+        }
+      },
+      {
+        "id": 6,
+        "version": 1,
+        "fields": {
+          "name": "Илья Захаров",
+          "phone": "+79990000206",
+          "group_id": "2",
+          "status": "STUDYING",
+          "enrolled_on": "2026-11-14"
+        }
+      },
+      {
+        "id": 7,
+        "version": 1,
+        "fields": {
+          "name": "Елизавета Громова",
+          "phone": "+79990000207",
+          "group_id": "2",
+          "status": "STUDYING",
+          "enrolled_on": "2026-11-16"
+        }
+      },
+      {
+        "id": 8,
+        "version": 1,
+        "fields": {
+          "name": "Даниил Попов",
+          "phone": "+79990000208",
+          "group_id": "3",
+          "status": "STUDYING",
+          "enrolled_on": "2026-10-10"
+        }
+      },
+      {
+        "id": 9,
+        "version": 1,
+        "fields": {
+          "name": "Полина Егорова",
+          "phone": "+79990000209",
+          "group_id": "3",
+          "status": "GRADUATED",
+          "enrolled_on": "2026-10-12"
+        }
+      },
+      {
+        "id": 10,
+        "version": 1,
+        "fields": {
+          "name": "Кирилл Никитин",
+          "phone": "+79990000210",
+          "group_id": "3",
+          "status": "STUDYING",
+          "enrolled_on": "2026-10-12"
+        }
+      },
+      {
+        "id": 11,
+        "version": 1,
+        "fields": {
+          "name": "Александр Котов",
+          "phone": "+79990000211",
+          "group_id": "4",
+          "status": "STUDYING",
+          "enrolled_on": "2026-10-24"
+        }
+      },
+      {
+        "id": 12,
+        "version": 1,
+        "fields": {
+          "name": "Дарья Соловьёва",
+          "phone": "+79990000212",
+          "group_id": "4",
+          "status": "STUDYING",
+          "enrolled_on": "2026-10-26"
+        }
+      }
+    ],
+    "lessons": [
+      {
+        "id": 1,
+        "version": 1,
+        "fields": {
+          "student_id": "1",
+          "instructor_id": "1",
+          "car_id": "1",
+          "starts_at": "2026-11-19T10:00:00",
+          "duration_minutes": "60",
+          "status": "DONE",
+          "note": "Подготовка к движению и остановка."
+        }
+      },
+      {
+        "id": 2,
+        "version": 1,
+        "fields": {
+          "student_id": "5",
+          "instructor_id": "2",
+          "car_id": "2",
+          "starts_at": "2026-11-20T13:00:00",
+          "duration_minutes": "60",
+          "status": "DONE",
+          "note": "Работа на учебной площадке."
+        }
+      },
+      {
+        "id": 3,
+        "version": 1,
+        "fields": {
+          "student_id": "9",
+          "instructor_id": "3",
+          "car_id": "4",
+          "starts_at": "2026-11-20T15:00:00",
+          "duration_minutes": "60",
+          "status": "DONE",
+          "note": "Маневрирование на площадке."
+        }
+      },
+      {
+        "id": 4,
+        "version": 1,
+        "fields": {
+          "student_id": "2",
+          "instructor_id": "1",
+          "car_id": "1",
+          "starts_at": "2026-11-24T09:00:00",
+          "duration_minutes": "60",
+          "status": "PLANNED",
+          "note": "Старт на подъёме."
+        }
+      },
+      {
+        "id": 5,
+        "version": 1,
+        "fields": {
+          "student_id": "1",
+          "instructor_id": "1",
+          "car_id": "1",
+          "starts_at": "2026-11-24T10:00:00",
+          "duration_minutes": "60",
+          "status": "PLANNED",
+          "note": "Парковка задним ходом."
+        }
+      },
+      {
+        "id": 6,
+        "version": 1,
+        "fields": {
+          "student_id": "6",
+          "instructor_id": "2",
+          "car_id": "2",
+          "starts_at": "2026-11-24T11:30:00",
+          "duration_minutes": "90",
+          "status": "PLANNED",
+          "note": "Маршрут в учебном районе."
+        }
+      },
+      {
+        "id": 7,
+        "version": 1,
+        "fields": {
+          "student_id": "8",
+          "instructor_id": "3",
+          "car_id": "4",
+          "starts_at": "2026-11-25T14:00:00",
+          "duration_minutes": "60",
+          "status": "PLANNED",
+          "note": "Разворот на малой скорости."
+        }
+      },
+      {
+        "id": 8,
+        "version": 1,
+        "fields": {
+          "student_id": "11",
+          "instructor_id": "4",
+          "car_id": "5",
+          "starts_at": "2026-11-25T15:00:00",
+          "duration_minutes": "90",
+          "status": "PLANNED",
+          "note": "Маневрирование с габаритами."
+        }
+      },
+      {
+        "id": 9,
+        "version": 1,
+        "fields": {
+          "student_id": "3",
+          "instructor_id": "1",
+          "car_id": "1",
+          "starts_at": "2026-11-26T09:00:00",
+          "duration_minutes": "60",
+          "status": "CANCELED",
+          "note": "Просьба ученика перенести урок."
+        }
+      },
+      {
+        "id": 10,
+        "version": 1,
+        "fields": {
+          "student_id": "12",
+          "instructor_id": "4",
+          "car_id": "5",
+          "starts_at": "2026-11-26T10:00:00",
+          "duration_minutes": "60",
+          "status": "PLANNED",
+          "note": "Плавное торможение."
+        }
+      }
+    ]
+  }
+}
